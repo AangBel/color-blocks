@@ -11,9 +11,9 @@ We are building an application that creates color blocks on the DOM, based on bu
 
 - Practice Read and Write skills
 - Solidify jQuery knowledge
-  - Selectors
-  - Dynamic Content
-  - Methods `.on()`, `.append()`, `remove()`
+- Selectors
+- Dynamic Content
+- Methods `.on()`, `.append()`, `remove()`
 
 ## Required Functionality for Part One!
 

@@ -12,20 +12,20 @@ function onReady() {
 //   $("#blocks").on("click", ".block", removeBlock);
 
   $("#red-btn").on("click", redAppend);
-  $("#blue-btn").on("click", blueAppend);
+  $("#blue-btn").on("click", blueAppend, );
   $("#green-btn").on("click", greenAppend);
   $("#yellow-btn").on("click", yellowAppend);
 
 //   $("#blocks").on("click", ".block", removeBlock);
 } //end of on ready
-function redCount(){
-    $('.red-count').on("click", red +1);
-}
+// function redCount(){
+//     $('.red-count').on("click", red +1);
+// }
 ///----------------------------
 function redAppend() {
   $("#redContainer").append('<div class="block red-fill"></div>');
   red++;
-  redCount();
+  $('#red-count').append(red);
 }
 function blueAppend() {
   $("#blueContainer").append('<div class="block blue-fill"></div>');
